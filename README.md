@@ -1,2 +1,0 @@
-# CustomLists
-CustomLists - MVC .NET
