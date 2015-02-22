@@ -25,8 +25,10 @@ namespace CustomLists
 
 			bundles.Add(new StyleBundle("~/Content/css").Include(
 					  "~/Content/bootstrap.css",
-					  "~/Content/metro-bootstrap.css",
 					  "~/Content/site.css"));
+
+			bundles.Add(new ScriptBundle("~/bundles/knockout").Include(
+				"~/Scripts/knockout-*"));
 		}
 	}
 }
